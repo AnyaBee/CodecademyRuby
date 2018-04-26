@@ -2,18 +2,6 @@
 # of non-negative integers and strings and returns 
 #a new list with the strings filtered out.
 
-#def filter_list(l)
-  # return a new list with the strings filtered out
-  #return true if self =~ /\A\d+\Z/
-  #  l.each do |x|
-  #		l.delete(x)
-  #	end
-
-	
-#end
-
-#filter_list([1,2,'a','b'])
-
 def filter_list(l)
 	l2 = []
 	l.each do |item|
